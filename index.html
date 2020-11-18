@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
+  
 </head>
 <body>
-    <div id="status-bar">
-        <div class="status-bar__column">
+    <div class="status-bar">
+        <div class="status-bar__column"> 
+            <!-- 이런 작명을 BEM  방법이라고 한다. 아들놈한테 __ 으로 연결-->
+            <!-- 특성을 줄때는 status-bar--big 이런식으로 --을 사용해 연결 , 동일한 관계에서 -->
             <span>No Service</span>
-            <!--To Do : Wifi Icon-->
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
             <span>18:43</span>
         </div>  
         <div class="status-bar__column">
             <span>110%</span>
-            <!--Battery Icon-->
-            <!--Lightening Icon-->
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
             <section></section>
         </div>    
     </div>
+    <script defer src="https://kit.fontawesome.com/38fbe6c5c6.js" crossorigin="anonymous"></script>
 </body>
 </html>
