@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* 정중앙으로 시계 두려고 사용하는 CSS Hack 밑에거 기억해서 써먹으셈 
